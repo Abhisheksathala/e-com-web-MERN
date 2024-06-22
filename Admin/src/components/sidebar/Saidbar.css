@@ -1,0 +1,29 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    gap: 20px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    height: 100vh;
+    width: 20%;
+    background-color: rgba(250, 235, 215, 0.1);
+    border-radius: 0px 100px 100px 10px;
+}
+
+.said-bar-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.order {
+    width: 40px;
+    
+}

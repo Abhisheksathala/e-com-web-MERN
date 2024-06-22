@@ -1,0 +1,17 @@
+/* Adjust the width and font size of the toast notifications */
+.Toastify__toast {
+    max-width: 350px; /* Set your desired width */
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  /* Optionally, customize the appearance further */
+  .Toastify__toast--success {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #f44336;
+    color: white;
+  }
+  

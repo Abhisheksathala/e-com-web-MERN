@@ -1,0 +1,37 @@
+.listproducts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 140px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 30px;
+}
+.listproducts-formet-main{
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+gap: 10px;
+width: 100%;
+padding: 20px 0px;
+font-size: 18px;
+font-weight: 500;
+}
+
+.listproducts-formet{
+    align-items: center;
+    font-weight: 500; 
+}
+.listtime-remove-icon{
+    height: 10px;
+}
+.listproducts-formet button{
+    width: 100px;
+    color: rgb(67, 67, 167);cursor: pointer;
+}
+.listrodcut-img{
+    width: 100px;
+    cursor: pointer;
+   
+}
